@@ -1,0 +1,1 @@
+# Mercoledì 7 luglio - 6 ore (30 di 80)

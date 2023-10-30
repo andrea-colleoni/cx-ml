@@ -1,0 +1,1 @@
+# Mercoledì 14 luglio - 4 ore (40 di 80)

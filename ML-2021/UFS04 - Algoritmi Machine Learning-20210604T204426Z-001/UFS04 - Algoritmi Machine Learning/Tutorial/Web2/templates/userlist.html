@@ -1,0 +1,7 @@
+<html>
+    <body>
+    {%for user in users %} 
+        <a href="./userinfo?id={{user[0]}}" >{{user[1]}} {{user[2]}}</a><br> 
+    {%endfor%} 
+    </body>
+</html>

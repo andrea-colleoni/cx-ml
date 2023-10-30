@@ -1,0 +1,163 @@
+Edutecnica
+IndexElettronicaTeoria
+
+Teoria dell'informazione: esercizi risolti
+Esercizio 1
+Una sorgente discreta emette i simboli x1 , x2 , x3 , x4 , x5 aventi probabilità rispettivamente pari a: p1=0,2; p2=0,25; p3=0,3; p4=0,1; p5=0,15.
+Determinare l'informazione associata a ciascun simbolo e l'entropia della sorgente.
+  
+[H=2,23 bit/sym]      
+
+
+Esercizio 2
+Calcola la ridondanza di una sorgente binaria discreta le cui probabilità di emissione sono p1=0,35 p2=0,65.     
+  
+[γ=0,07 bit/sym]
+
+Esercizio 3
+Una sorgente discreta emette 5 simboli con probabilità :
+p1 = 0,15 p2 = 0,2 p3 = 0,4 p4 = 0,2 p5 = 0,05.
+Calcola:
+a] la ridondanza della sorgente
+b] la lunghezza del codice necessaria ad effettuare una corretta codifica della sorgente .
+   
+[L=2,32 γ=0,1 bit/sym]    
+
+Esercizio 4
+Si ha una sorgente di 6 simboli discreti con ridondanza γ=0,4 bit/simbolo; calcola:
+a] L'entropia
+b] la lunghezza del codice
+c] l'efficienza della codifica .
+  
+[H=1,548 bit/sym eta;=0,6 bit/sym L=2,58]
+
+Esercizio 5
+Una sorgente ha un alfabeto di n=4 simboli con le seguenti probabilità di emissione:
+  simbolo	  x1	  x2	  x3	  x4
+  probabilità	  0,38	  0,25	  0,22	  0,15
+a] calcola l'entropia della sorgente
+b] calcola il contenuto informativo dei due seguenti messaggi:
+M1=x1x4x1x2                           M2=x2x3x1x3    
+[H=1,922bit/sym IM1=7,528 bit IM2=7,764 bit ]
+Esercizio 6
+Una sorgente ha un alfabeto di n=7 simboli con le seguenti probabilità di emissione:
+
+  simbolo	 probabilità	 codice
+  x1	 0,32	 00
+  x2	 0,23	 01
+  x3	 0,13	 100
+  x4	 0,1	 101
+  x5	 0,09	 110
+  x6	 0,08	 1110
+  x7	 0,05	 1111Calcolare la lunghezza media del codice
+[  L=2,58 ]        
+Esercizio 7
+Una sorgente discreta emette 3 simboli statisticamente indipendenti; sapendo che p1=0,45 e p2=0,25 calcolare la ridondanza γ .      
+   
+[ γ=0,03 bit/sym ]
+
+Esercizio 8
+Un alfabeto è costituito da 2 simboli {x1 , x2} equiprobabili.
+Il tempo impiegato per trasmettere il primo simbolo è T(x1)=50 μs mentre è T(x2)=75 μs, calcolare:
+a] l'entropia della sorgente
+b] il tempo medio per trasmettere un simbolo
+c] la velocità di trasmissione      
+   
+[H=1,548 bit/sym Ts=62,5 μs R=16 kbit/s]
+
+Esercizio 9
+Un alfabeto è costituito da 5 simboli {x1 , x2 , x3 , x4 , x5 } che hanno probabilità di emissione e codifica, nelle tabella indicata.
+
+ simbolo	 probabilità	 codifica
+ x1	 0,22	 01
+ x2	 0,18	 10
+ x3	 0,28	 00
+ x4	 0,15	 111
+ x5 	 0,17	 110   
+Il tempo impiegato medio per trasmettere un solo bit è T=100 μs. Calcolare:
+a] l'entropia della sorgente
+b] la lunghezza media del simbolo
+c] l'efficienza della codifica
+d] la velocità di trasmissione    
+   
+[H=2,285 bit/sym L=2,32 η=0,985 bit/sym R=9850 bit/s]        
+
+Esercizio 10
+Una sorgente, senza memoria, di messaggi discreti ha un alfabeto formato da 4 simboli A, B, C, D le cui probabilità di verificarsi sono mostrate nella tabella che segue.
+
+Simbolo
+A
+B
+C
+D
+Probabilità
+0.25
+0.45
+0.12
+0.18
+
+Si chiede la codifica dell'alfabeto secondo l'algoritmo di Shannon-Fano e la lunghezza media del codice.    
+   
+[ L=1,85 ]        
+
+Esercizio 11
+Una sorgente, senza memoria, di messaggi discreti ha un alfabeto formato da 6 simboli:
+x1, x2, x3, x4, x5, x6
+le cui probabilità di verificarsi sono mostrate nella tabella che segue.  
+
+ Simbolo	 x1	 x2	 x3	 x4	 x5	 x6
+ Probabilità	 0.33	 0.22	 0.18	 0.12	 0.09	 0.06
+Si chiede di calcolare:
+a) la codifica secondo l'algoritmo di Shannon-Fano;
+b) l'entropia della sorgente;
+c) il contenuto informativo del messaggio M=x3x5x1x2x4x1x2;
+d) la lunghezza media del codice;
+e) l'efficienza del codice;
+f) la ridondanza del codice; .    
+   
+[H= 2.377 bit/sym IM=16.575 bit L= 2,270 η= 0,955 bit/sym γ= 0,045 bit/sym]        
+
+Esercizio 12
+Una sorgente di messaggi discreti senza memoria è dotata di un alfabeto di 7 simboli: che hanno le seguenti probabilità:
+
+ simbolo	 x1	 x2	 x3	 x4	 x5	 x6	 x7
+ Probabilità	 0,09	 0,21	 0,05	 0,1	 0,36	 0,14	 0,05Calcola:
+a] la codifica con l'algoritmo di shannon-fano
+b] l'entropia della sorgente
+c] il contenuto informativo del messaggio M=x5x6x1x3x5x2x2
+d] la lunghezza media del codice
+e] l'efficienza del codice
+f] la ridondanza del codice       
+   
+[ H=2,478 bit/sym IM= 19,31 bit L=2,53 η=0,9794 γ=0,0206 bit/sym ]        
+
+Esercizio 13
+Una sorgente di informazione discreta emette 4 simboli, le cui probabilità di emissione sono riportate nella tabella:
+
+ simboli	 probabilità
+ A	 0,15
+ B	 0,3
+ C	 0,2
+ D	 0,35
+I simboli, previa codifica di sorgente, sono trasmessi a intervalli di 1 ms su un mezzo trasmissivo caratterizzato da un rapporto segnale/rumore = 25 dB. Calcola:
+a] l'entropia della sorgente
+b] la ridondanza della sorgente
+c] la velocità di trasmissione
+d] la banda necessaria al mezzo trasmissivo       
+   
+[ H=1,92 bit/sym R=1920 bit/s  B=231 Hz γ=0,037 bit/sym ]        
+
+Esercizio 14
+Una sorgente di informazione discreta emette 16 simboli equiprobabili. Calcola:
+a] l'informazione associata a ciascun codice
+b] l'entropia della sorgente
+c] la ridondanza della sorgente
+d] la lunghezza del codice     
+  
+[γ=0 bit/sym   H=4 bit/sym L=4  I=4 bit]
+
+
+
+
+
+IndexElettronicaTeoriaQuesto sito fa uso di cookie.Proseguendo nella navigazione si accetta l’uso di cookie.INFORMAZIONICHIUDI

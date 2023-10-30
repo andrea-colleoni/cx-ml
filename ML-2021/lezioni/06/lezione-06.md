@@ -1,0 +1,1 @@
+# Giovedì 8 luglio - 6 ore (36 di 80)
